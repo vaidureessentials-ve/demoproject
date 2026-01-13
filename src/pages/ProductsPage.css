@@ -1,0 +1,26 @@
+.products-page {
+  min-height: calc(100vh - 70px - 320px);
+  background: #faf9f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-content {
+  text-align: center;
+}
+
+.products-content h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.products-content p {
+  font-size: 18px;
+  color: #666;
+}
+
+.empty {
+  margin-top: 20px;
+  color: #888;
+}

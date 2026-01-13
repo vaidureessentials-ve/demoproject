@@ -1,0 +1,171 @@
+/* PAGE BASE */
+.about-page {
+  padding: 120px 20px 80px;
+  background: #f9f7f3;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADINGS */
+.about-container h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* PARAGRAPHS */
+.about-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+/* COMMITMENT / INFO BOX */
+.career-box {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 14px;
+  margin: 45px 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+}
+
+.career-box h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.career-box ul {
+  padding-left: 20px;
+}
+
+.career-box li {
+  font-size: 15px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* CLOSING NOTE */
+.career-note {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+/* HERO */
+.brand-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.brand-hero h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.brand-tagline {
+  font-size: 18px;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* SECTION SYSTEM */
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.section-subtitle {
+  color: #666;
+  margin-bottom: 18px;
+}
+
+/* LISTS */
+.product-list,
+.design-list,
+.experience-list,
+.audience-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list li,
+.design-list li,
+.experience-list li,
+.audience-list li {
+  margin-bottom: 8px;
+}
+
+/* CHECK LIST */
+.check-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-list li {
+  margin-bottom: 10px;
+}
+
+.check-list li::before {
+  content: "✔ ";
+  color: #b59d5a;
+  font-weight: bold;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+/* TEXT EMPHASIS */
+.bold-note {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* LAUNCH BOX */
+.launch-box {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 14px;
+}
+
+.launch-brand h3 {
+  margin-top: 20px;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.launch-brand span {
+  display: block;
+  margin-top: 8px;
+  color: #c9b46b;
+}
