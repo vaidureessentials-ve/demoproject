@@ -12,6 +12,110 @@
   z-index: 1000;
 }
 
+.mobile-left {
+  display: none;
+}
+
+@media (max-width: 900px) {
+
+  /* Hide desktop navigation */
+  .nav {
+    display: none !important;
+  }
+
+  /* Show hamburger */
+  .mobile-left {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Hide USER icon (only 3 icons remain) */
+  .user-icon {
+    display: none !important;
+  }
+
+  /* Header spacing */
+  .header {
+    padding: 0 16px;
+    height: 64px;
+  }
+
+  /* Center logo */
+  .site-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+  /* Icons spacing */
+  .header-icons {
+    gap: 16px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+}
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 280px;
+  height: 100%;
+  background: #fff;
+  z-index: 5000;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.mobile-drawer.open {
+  left: 0;
+}
+
+.drawer-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.drawer-login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.drawer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.drawer-links li {
+  padding: 14px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.drawer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.drawer-links a:hover {
+  color: #d4af37;
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 4000;
+}
 
 .site-logo{
   color: #333;
@@ -36,7 +140,7 @@
 
 /* MAIN MENU HOVER */
 .nav-item:hover span {
-  color: #d4af37; /* gold / yellow */
+  color: #d4af37; 
 }
 
 
@@ -55,7 +159,7 @@
 }
 
 .nav-item > a {
-  font-family: 'Poppins', sans-serif;   /* ✅ ADD THIS */
+  font-family: 'Poppins', sans-serif;  
   font-weight: 500;
   letter-spacing: 0.3px;
 }
@@ -63,7 +167,7 @@
 
 /* MAIN MENU HOVER */
 .nav-item:hover > a {
-  color: #d4af37; /* yellow */
+  color: #d4af37; 
 }
 
 .dropdown a:hover {
@@ -87,7 +191,7 @@
 }
 
 .dropdown a {
-  font-family: 'Poppins', sans-serif;   /* ✅ ADD / CONFIRM */
+  font-family: 'Poppins', sans-serif; 
   font-weight: 400;
   padding: 10px 16px;
   text-decoration: none;
@@ -110,7 +214,7 @@
 .header-icons {
   font-size: large;
   display: flex;
-  gap: 20px;   /* LEFT & RIGHT padding */
+  gap: 20px;  
 }
 
 .icon {
@@ -132,7 +236,7 @@
 /* SEARCH BAR BELOW HEADER */
 .header-search {
   position: fixed;
-  top: 70px; /* header height */
+  top: 70px; 
   left: 0;
   width: 100%;
   background: #fff;
@@ -264,4 +368,3 @@
   justify-content: center;
   font-weight: 500;
 }
-

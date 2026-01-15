@@ -127,8 +127,8 @@ export default function Footer() {
             <li>support@vaidure.com</li>
             <li>+91 95227 00027</li>
             <li>
-              123 Luxury Lane <br />
-              Indore, M.P. 452010
+              Orbit,Vijay Nagar, Scheme 54 PU4<br />
+              Indore, Madhya Pradesh 452010
             </li>
           </ul>
         </div>

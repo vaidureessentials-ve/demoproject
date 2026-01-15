@@ -56,3 +56,72 @@
   color: #555;
   line-height: 1.6;
 }
+
+
+/*
+   DIFFERENCE – Mobile & Tablet 
+   */
+
+@media (max-width: 900px) {
+  .difference {
+    grid-template-columns: 1fr;
+    padding: 80px 24px;
+    gap: 60px;
+  }
+
+  .difference-left {
+    text-align: center;
+  }
+
+  .difference-left h2 {
+    font-size: 34px;
+  }
+
+  .difference-desc {
+    margin: 0 auto;
+  }
+
+  .divider {
+    margin: 30px auto 0;
+  }
+
+  .difference-right {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+}
+
+/* 
+   Mobile (Small Screens) */
+
+@media (max-width: 480px) {
+  .difference {
+    padding: 60px 16px;
+  }
+
+  .difference-left h2 {
+    font-size: 28px;
+  }
+
+  .difference-desc {
+    font-size: 15px;
+  }
+
+  .difference-right {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .feature-icon {
+    font-size: 30px;
+  }
+
+  .feature h4 {
+    font-size: 17px;
+  }
+
+  .feature p {
+    font-size: 14px;
+  }
+}

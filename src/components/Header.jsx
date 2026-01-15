@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
 import { useState, useRef, useEffect } from "react";
-import { FiUser, FiHeart, FiShoppingBag, FiSearch, FiX } from "react-icons/fi";
+import { FiUser, FiHeart, FiShoppingBag, FiSearch, FiX, FiMenu} from "react-icons/fi";
 import "./Header.css";
 
 const Header = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   const [showCart, setShowCart] = useState(false);
 
@@ -30,6 +31,10 @@ const Header = () => {
       {/* HEADER */}
       <header className="header">
 
+      <div className="mobile-left">
+    <FiMenu className="icon" onClick={() => setMobileMenu(true)} />
+  </div>
+
 <Link
   to="/"
   className="site-logo"
@@ -38,7 +43,7 @@ const Header = () => {
   VAIDURE
 </Link>
 
-        <nav className="nav">
+<nav className="nav">
 
 <div className="nav-item">
   <Link to="/body-care">Products</Link>
@@ -68,7 +73,7 @@ const Header = () => {
 </div>
 
 <div className="nav-item">
-  <Link to="/b2b-hotels">B2B Solutions</Link>
+  <Link to="/b2b-hotels">B2BSolutions</Link>
   <div className="dropdown">
     <Link to="/b2b-hotels">Hotels</Link>
     <Link to="/b2b-resorts">Resorts</Link>
@@ -101,7 +106,7 @@ const Header = () => {
           <FiSearch className="icon" onClick={() => setShowSearch(!showSearch)} />
 
           <FiUser
-          className="icon"
+          className="icon user-icon"
           onClick={() => {
           setAuthMode("signup"); // FIRST SIGNUP
           setShowAuth(true);
@@ -122,6 +127,38 @@ const Header = () => {
 
         </div>
       </header>
+
+      {/* MOBILE DRAWER */}
+<div className={`mobile-drawer ${mobileMenu ? "open" : ""}`}>
+  <div className="drawer-top">
+    <FiX className="icon" onClick={() => setMobileMenu(false)} />
+  </div>
+
+  <div
+    className="drawer-login"
+    onClick={() => {
+      setAuthMode("signup");
+      setShowAuth(true);
+      setMobileMenu(false);
+    }}
+  >
+    <FiUser />
+    <span>Login / Sign Up</span>
+  </div>
+
+  <ul className="drawer-links">
+    <li><Link to="/body-care" onClick={() => setMobileMenu(false)}>Products</Link></li>
+    <li><Link to="/eco-materials" onClick={() => setMobileMenu(false)}>Sustainability</Link></li>
+    <li><Link to="/private-label" onClick={() => setMobileMenu(false)}>Customization</Link></li>
+    <li><Link to="/b2b-hotels" onClick={() => setMobileMenu(false)}>B2BSolutions</Link></li>
+    <li><Link to="/blog" onClick={() => setMobileMenu(false)}>About</Link></li>
+    <li><Link to="/support" onClick={() => setMobileMenu(false)}>Contact</Link></li>
+  </ul>
+</div>
+
+{mobileMenu && (
+  <div className="drawer-overlay" onClick={() => setMobileMenu(false)} />
+)}
 
       {/* SEARCH BAR */}
       

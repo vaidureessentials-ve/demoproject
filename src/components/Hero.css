@@ -1,14 +1,10 @@
 .hero {
   margin-top: 70px;
-  min-height: 90vh;
+  min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   padding: 60px;
-
-  /* Background Image */
-  background:
-    url("/hero.jpg");
-
+  background: url("/hero.jpg");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -16,7 +12,6 @@
 
 .hero-content {
   max-width: 520px;
-  text-align: center;       /* ✅ text center */
 }
 
 .buttons {
@@ -71,4 +66,48 @@
 .secondary:hover {
   background: #fff;           /* white background */
   color: #000;
+}
+
+@media (max-width: 900px) {
+
+  .header {
+    padding: 0 12px;
+    height: 64px;
+    display: grid;
+    grid-template-columns: 40px 1fr 96px;
+    align-items: center;
+  }
+
+  /* Left hamburger */
+  .mobile-left {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+  }
+
+  /* Center logo */
+  .site-logo {
+    position: static;              /* ❗ remove absolute */
+    transform: none;
+    text-align: center;
+    font-size: 16px;
+    justify-self: center;
+  }
+
+  /* Right icons */
+  .header-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  /* Hide desktop nav + user */
+  .nav,
+  .user-icon {
+    display: none !important;
+  }
 }

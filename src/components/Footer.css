@@ -107,6 +107,18 @@
     gap: 10px;
     align-items: center;
   }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .brand {
+    text-align: center;
+  }
+
+  .line {
+    margin: 0 auto;
+  }
 }
 
 .social-icons {
@@ -132,4 +144,3 @@
   background: #caa53b;
   color: #2f2f2f;
 }
-
