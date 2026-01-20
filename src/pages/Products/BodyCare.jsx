@@ -1,5 +1,7 @@
 import "./BodyCare.css";
 import { FiHeart } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
+
 
 import img1 from "../../assets/ProductsBody/bodycare1.png";
 import img2 from "../../assets/ProductsBody/bodycare2.png";
@@ -93,8 +95,9 @@ const products = [
   },
 ];
 
-          
 export default function BodyCare() {
+  const navigate = useNavigate();
+
   return (
     <section className="products-page">
       <div className="product-header">
@@ -104,17 +107,22 @@ export default function BodyCare() {
 
       <div className="products-grid">
         {products.map((item) => (
-          <div className="product-card" key={item.id}>
-            
-            {/* Wishlist ICON ONLY */}
-            <button className="wishlist-btn">
+          <div
+            className="product-card"
+            key={item.id}
+            onClick={() => navigate(`/product/${item.id}`)}
+          >
+            {/* Wishlist */}
+            <button
+              className="wishlist-btn"
+              onClick={(e) => e.stopPropagation()}
+            >
               <FiHeart />
             </button>
 
-            {/* Product Image */}
+            {/* Image */}
             <img src={item.img} alt={item.name} />
 
-            {/* Product Info */}
             <div className="product-info">
               <h3>{item.name}</h3>
 
@@ -126,10 +134,7 @@ export default function BodyCare() {
                 </span>
               </div>
 
-              {/* Button UI ONLY */}
-              <button className="add-cart">
-                ADD TO CART
-              </button>
+              <button className="add-cart">ADD TO CART</button>
             </div>
           </div>
         ))}

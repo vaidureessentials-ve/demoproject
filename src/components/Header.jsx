@@ -82,23 +82,21 @@ const Header = () => {
 </div>
 
 <div className="nav-item">
-  <Link to="/blog">About</Link>
+  <Link to="/aboutus">AboutUs</Link>
   <div className="dropdown">
-    <Link to="/blog">Blog</Link>
+    <Link to="/aboutus">AboutUs</Link>
     <Link to="/mission">Mission</Link>
-    <Link to="/careers">Careers</Link>
   </div>
 </div>
 
 <div className="nav-item">
-  <Link to="/support">Contact</Link>
+  <Link to="/contactUs">ContactUs</Link>
   <div className="dropdown">
-    <Link to="/support">Support</Link>
-    <Link to="/sales">Sales</Link>
+    <Link to="/contactUs">ContactUs</Link>
+    <Link to="/enquiry">Enquiry</Link>
     <Link to="/locations">Locations</Link>
   </div>
 </div>
-
 
 </nav>
         <div className="header-icons">

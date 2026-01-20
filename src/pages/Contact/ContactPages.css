@@ -60,3 +60,74 @@
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
+
+.contact-form {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.submit-btn:hover {
+  background: #222;
+}
+
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+}
+
+.contact-card p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  font-size: 18px;
+  color: #111;
+}
+
+.contact-icon.whatsapp {
+  color: #25D366;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+.color:hover {
+  color: #d4af37;
+}

@@ -14,7 +14,7 @@ export default function Collections() {
       <p className="collections-tag">OUR COLLECTIONS</p>
       <h2 className="collections-title">Crafted for Excellence</h2>
 
-      <div className="collections-grid">
+      <div className="collections-grid full-width-img">
         {/* Wet Amenities → Hair Care */}
         <Link
           to="/hair-care"
@@ -40,7 +40,7 @@ export default function Collections() {
           className="collection-link"
         >
           <div
-            className="collection-card"
+            className="collection-card full-width-img"
             style={{ backgroundImage: `url(${dryImg})` }}
           >
             <div className="overlay">
@@ -58,7 +58,7 @@ export default function Collections() {
           className="collection-link"
         >
           <div
-            className="collection-card"
+            className="collection-card full-width-img"
             style={{ backgroundImage: `url(${bodyImg})` }}
           >
             <div className="overlay">

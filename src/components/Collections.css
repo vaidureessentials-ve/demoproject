@@ -71,11 +71,6 @@
   display: block;
 }
 
-
-/* ===============================
-   COLLECTIONS – Tablet
-   =============================== */
-
 @media (max-width: 900px) {
   .collections {
     padding: 80px 24px;
@@ -103,10 +98,6 @@
     font-size: 20px;
   }
 }
-
-/* ===============================
-   COLLECTIONS – Mobile
-   =============================== */
 
 @media (max-width: 480px) {
   .collections {

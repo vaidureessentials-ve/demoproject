@@ -106,7 +106,9 @@ export default function HairCare() {
               </div>
 
               {/* Button */}
-              <button className="add-cart">ADD TO CART</button>
+              <button className="add-cart">
+                ADD TO CART
+              </button>
             </div>
           </div>
         ))}

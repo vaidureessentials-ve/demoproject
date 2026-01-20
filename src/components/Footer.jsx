@@ -2,8 +2,6 @@ import { FaInstagram, FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/f
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-// import "./Footer.css";
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -16,7 +14,6 @@ export default function Footer() {
             Pure Care. Thoughtfully Crafted. <br />
             Beautifully Branded.
           </p>
-          {/* <span className="line"></span> */}
           <div className="social-icons">
   <a
     href="https://www.instagram.com/vaidure_essentials"
@@ -54,7 +51,6 @@ export default function Footer() {
     <FaLinkedinIn />
   </a>
 </div>
-
 
         </div>
 
@@ -112,8 +108,8 @@ export default function Footer() {
 </li>
 
 <li>
-  <Link to="/support" onClick={() => window.scrollTo(0, 0)}>
-    Contact
+  <Link to="/contactus" onClick={() => window.scrollTo(0, 0)}>
+    ContactUs
   </Link>
 </li>
 

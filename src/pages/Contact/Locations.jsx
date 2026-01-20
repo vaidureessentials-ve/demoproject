@@ -17,12 +17,6 @@ const Locations = () => {
             <p>Indore, Madhya Pradesh</p>
           </div>
 
-          {/* Manufacturing Unit */}
-          <div className="location-card">
-            <h3>Manufacturing Unit</h3>
-            <p>Indore, Madhya Pradesh</p>
-          </div>
-
           {/* Orbit Location */}
           <div className="location-card">
             <h3>Corporate Office</h3>
