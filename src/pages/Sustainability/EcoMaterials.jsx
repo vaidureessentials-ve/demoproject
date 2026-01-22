@@ -43,22 +43,6 @@ const EcoMaterials = () => {
           </div>
         </div>
 
-        {/* ROW 3: TEXT LEFT | IMAGE RIGHT */}
-        <div className="sustain-row">
-          <div className="sustain-text">
-            <h3>Safe & Responsible Formulations</h3>
-            <p>
-              VAIDURE products are developed without unnecessary harsh chemicals
-              and are aligned with Indian regulatory standards for personal care
-              and hospitality use.
-            </p>
-          </div>
-
-          <div className="sustain-image">
-            <img src="/images/safe-formula.jpg" alt="Safe formulations" />
-          </div>
-        </div>
-
       </div>
     </section>
   );

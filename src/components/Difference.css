@@ -1,4 +1,4 @@
-.difference {
+/* .difference {
   padding: 120px 60px;
   background: #f9f7f3;
   display: grid;
@@ -57,11 +57,6 @@
   line-height: 1.6;
 }
 
-
-/*
-   DIFFERENCE – Mobile & Tablet 
-   */
-
 @media (max-width: 900px) {
   .difference {
     grid-template-columns: 1fr;
@@ -92,9 +87,6 @@
   }
 }
 
-/* 
-   Mobile (Small Screens) */
-
 @media (max-width: 480px) {
   .difference {
     padding: 60px 16px;
@@ -123,5 +115,140 @@
 
   .feature p {
     font-size: 14px;
+  }
+} */
+
+
+.difference {
+  padding: 120px 60px;
+  background: #f9f7f3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.difference-tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #777;
+  margin-bottom: 16px;
+}
+
+.difference-left h2 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.difference-desc {
+  font-size: 16px;
+  color: #555;
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+.divider {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #d4aa3a;
+  margin-top: 30px;
+}
+
+.difference-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.feature {
+  max-width: 260px;
+}
+
+.feature-icon {
+  font-size: 32px;
+  color: #d4aa3a;
+  margin-bottom: 14px;
+}
+
+.feature h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .difference {
+    grid-template-columns: 1fr;
+    padding: 80px 24px;
+    gap: 60px;
+  }
+
+  .difference-left {
+    text-align: center;
+  }
+
+  .difference-left h2 {
+    font-size: 34px;
+  }
+
+  .difference-desc {
+    margin: 0 auto;
+    font-size: 15.5px;
+  }
+
+  .divider {
+    margin: 30px auto 0;
+  }
+
+  .difference-right {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .difference {
+    padding: 64px 16px;
+    gap: 48px;
+  }
+
+  .difference-left h2 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .difference-desc {
+    font-size: 15px;
+  }
+
+  .difference-right {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .feature {
+    max-width: 100%;
+  }
+
+  .feature-icon {
+    font-size: 30px;
+  }
+
+  .feature h4 {
+    font-size: 17px;
+  }
+
+  .feature p {
+    font-size: 14px;
+    line-height: 1.7;
   }
 }

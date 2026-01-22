@@ -12,7 +12,6 @@
   gap: 60px;
 }
 
-/* Brand */
 .brand-name {
   font-size: 28px;
   margin-bottom: 16px;
@@ -32,7 +31,6 @@
   display: inline-block;
 }
 
-/* Columns */
 .footer-col h4 {
   color: #caa53b;
   font-size: 14px;
@@ -51,16 +49,14 @@
   cursor: pointer;
 }
 
-/* Footer links */
 .footer-col a {
-  text-decoration: none;          /* remove underline */
-  color: #cfcfcf;                 /* light white */
+  text-decoration: none;       
+  color: #cfcfcf;                 
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .footer-col a:hover {
   color: #caa53b;
 }
@@ -70,7 +66,6 @@
   color: #fff;
 }
 
-/* Bottom */
 .footer-bottom {
   border-top: 1px solid #444;
   margin-top: 60px;
@@ -91,7 +86,6 @@
   color: #fff;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .footer {
     padding: 60px 30px;
@@ -144,3 +138,50 @@
   background: #caa53b;
   color: #2f2f2f;
 }
+
+
+@media (max-width: 480px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .brand-name {
+    font-size: 24px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .footer-top {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+

@@ -90,7 +90,7 @@ export default function Footer() {
           <h4>COMPANY</h4>
           <ul>
             <li>
-  <Link to="/blog" onClick={() => window.scrollTo(0, 0)}>
+  <Link to="/aboutus" onClick={() => window.scrollTo(0, 0)}>
     About Us
   </Link>
 </li>

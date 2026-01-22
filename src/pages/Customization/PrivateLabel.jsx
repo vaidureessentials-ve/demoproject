@@ -17,7 +17,7 @@ export default function PrivateLabel() {
       {/* SECTION 1 — IMAGE LEFT | TEXT RIGHT */}
       <div className="custom-row">
         <div className="custom-image">
-          <img src="/images/private-brand.jpg" alt="Private label branding" />
+          <img src="/images/private1.jpg" alt="Private label branding" />
         </div>
 
         <div className="custom-text">
@@ -42,23 +42,7 @@ export default function PrivateLabel() {
         </div>
 
         <div className="custom-image">
-          <img src="/images/private-moq.jpg" alt="Flexible MOQ" />
-        </div>
-      </div>
-
-      {/* SECTION 3 — IMAGE LEFT | TEXT RIGHT */}
-      <div className="custom-row">
-        <div className="custom-image">
-          <img src="/images/private-quality.jpg" alt="Quality assurance" />
-        </div>
-
-        <div className="custom-text">
-          <h3>Uncompromising Quality</h3>
-          <p>
-            Every formulation is developed with rigorous quality control,
-            dermatological testing, and compliance with international standards—
-            ensuring products you can trust and proudly offer.
-          </p>
+          <img src="/images/private2.jpg" alt="Flexible MOQ" />
         </div>
       </div>
 

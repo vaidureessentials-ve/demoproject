@@ -1,35 +1,30 @@
 import "./GiftSets.css";
 import { FiHeart } from "react-icons/fi";
 
+import gift1 from "../../assets/gift1.png";
+import gift2 from "../../assets/gift2.png";
+import gift3 from "../../assets/gift3.png";
 import gift4 from "../../assets/gift4.png";
-import gift5 from "../../assets/gift5.png";
-import gift6 from "../../assets/gift6.png";
-
-import gift7 from "../../assets/gift7.png";
-import gift8 from "../../assets/gift8.png";
-import gift9 from "../../assets/gift9.png";
-import gift10 from "../../assets/gift10.png";
-
 
 const giftSets = [
   {
     id: 1,
     name: "Luxury Travel Kit",
-    img: gift4,
+    img: gift1,
     price: 1499,
     mrp: 1799,
   },
   {
     id: 2,
     name: "Wellness Essentials Box",
-    img: gift5,
+    img: gift2,
     price: 1999,
     mrp: 2399,
   },
   {
     id: 3,
     name: "Premium Guest Welcome Set",
-    img: gift6,
+    img: gift3,
     price: 2499,
     mrp: 2999,
   },
@@ -43,44 +38,30 @@ const giftSets = [
   {
     id: 5,
     name: "Luxury Travel Kit",
-    img: gift5,
+    img: gift1,
     price: 1499,
     mrp: 1799,
   },
   {
     id: 6,
     name: "Wellness Essentials Box",
-    img: gift6,
+    img: gift2,
     price: 1999,
     mrp: 2399,
   },
   {
     id: 7,
     name: "Premium Guest Welcome Set",
-    img: gift7,
+    img: gift3,
     price: 2499,
     mrp: 2999,
   },
   {
     id: 8,
     name: "Premium Guest Welcome Set",
-    img: gift8,
+    img: gift4,
     price: 2499,
     mrp: 2999,
-  },
-  {
-    id: 9,
-    name: "Luxury Travel Kit",
-    img: gift9,
-    price: 1499,
-    mrp: 1799,
-  },
-  {
-    id: 10,
-    name: "Wellness Essentials Box",
-    img: gift10,
-    price: 1999,
-    mrp: 2399,
   },
 ];
 

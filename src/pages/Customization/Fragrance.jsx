@@ -16,18 +16,20 @@ export default function Fragrance() {
       {/* SECTION 1 — TEXT LEFT | IMAGE RIGHT */}
       <div className="custom-row">
         <div className="custom-text">
-          <h3>Signature Scents</h3>
+          <h3>Aloevera & Neem</h3>
           <p>
-            We create bespoke fragrance profiles that become an extension of
-            your brand identity. Each scent is thoughtfully developed to evoke
-            emotion, elevate spaces, and leave a lasting impression on guests.
+            A refreshing and purifying blend, Aloe Vera and Neem combines the soothing 
+            hydration of aloe with the natural cleansing power of neem. Known for their 
+            calming and antibacterial properties, this duo gently cleanses, nourishes, 
+            and protects the skin, leaving it fresh, balanced, and revitalized—ideal 
+            for everyday care and hygienic hospitality use.
           </p>
         </div>
 
         <div className="custom-image">
           <img
-            src="/images/fragrance-signature.jpg"
-            alt="Signature fragrance creation"
+            src="/images/fragrance-aloeveraneem.jpg"
+            alt="aloe vera neem"
           />
         </div>
       </div>
@@ -36,17 +38,20 @@ export default function Fragrance() {
       <div className="custom-row">
         <div className="custom-image">
           <img
-            src="/images/fragrance-natural.jpg"
-            alt="Natural and safe fragrances"
+            src="/images/fragrance-oudhmusk.jpg"
+            alt="oudh & musk"
           />
         </div>
 
         <div className="custom-text">
-          <h3>Natural & Safe Formulations</h3>
+          <h3>Oudh & Musk</h3>
           <p>
-            All fragrances are IFRA-compliant, allergen-conscious, and
-            responsibly sourced. We balance safety, sustainability, and sensory
-            richness to ensure comfort for everyday use.
+            A rich and timeless blend, Oudh and Musk brings together the deep, 
+            woody warmth of rare oudh with the soft, sensual depth of musk. 
+            The fragrance opens with an earthy, resinous character and settles 
+            into a smooth, comforting base that feels elegant and enduring. 
+            Sophisticated yet calming, it creates a sense of quiet luxury—perfect 
+            for refined personal care experiences and premium hospitality spaces.
           </p>
         </div>
       </div>
@@ -54,18 +59,21 @@ export default function Fragrance() {
       {/* SECTION 3 — TEXT LEFT | IMAGE RIGHT */}
       <div className="custom-row">
         <div className="custom-text">
-          <h3>Long-Lasting Impact</h3>
+          <h3>Peach & Beary</h3>
           <p>
-            Our expertly balanced compositions ensure fragrance consistency and
-            longevity across all products—creating a refined experience that
-            lingers long after use.
+            A vibrant and uplifting blend, Peach and Berry combines
+            the juicy sweetness of ripe peach with the fresh, slightly 
+            tangy notes of berries. Light, fruity, and refreshing, this 
+            fragrance delivers a cheerful burst of freshness that feels 
+            soft on the senses and leaves a pleasant, long-lasting 
+            impression—perfect for modern, feel-good personal care.
           </p>
         </div>
 
         <div className="custom-image">
           <img
-            src="/images/fragrance-lasting.jpg"
-            alt="Long lasting fragrance impact"
+            src="/images/fragrance-peachbeary.jpg"
+            alt="peach beary"
           />
         </div>
       </div>

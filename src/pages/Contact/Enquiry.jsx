@@ -32,10 +32,10 @@ const Enquiry = () => {
 
           {/* ✅ Recruitment Message Box */}
           <div className="form-group">
-          <label>Requiremensht</label>
+          <label>Requirement</label>
           <textarea
            rows="4"
-           placeholder="Write your recruitment details here..."
+           placeholder="Write your requirement details here..."
            required
            ></textarea>
            </div>

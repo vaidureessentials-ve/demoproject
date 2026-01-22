@@ -27,7 +27,6 @@ import Corporate from "./pages/B2B/Corporate";
 
 // ABOUT
 import AboutUs from "./pages/About/AboutUs";
-import Blog from "./pages/About/Blog";
 import Mission from "./pages/About/Mission";
 
 // CONTACT
@@ -68,7 +67,6 @@ function App() {
 
           {/* ABOUT */}
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/mission" element={<Mission />} />
 
           {/* CONTACT */}

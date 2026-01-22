@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
   margin-top: 70px;
   min-height: calc(100vh - 70px);
   display: flex;
@@ -40,7 +40,6 @@
 
 .description {
   font-size: 16px;
-  /* color: #343333; */
   color: #fff;
   margin-bottom: 30px;
 }
@@ -81,14 +80,12 @@
     align-items: center;
   }
 
-  /* Left hamburger */
   .mobile-left {
     display: flex;
     justify-content: flex-start;
     font-size: 20px;
   }
 
-  /* Center logo */
   .site-logo {
     position: static; 
     transform: none;
@@ -97,7 +94,6 @@
     justify-self: center;
   }
 
-  /* Right icons */
   .header-icons {
     display: flex;
     justify-content: flex-end;
@@ -108,9 +104,99 @@
     font-size: 18px;
   }
 
-  /* Hide desktop nav + user */
   .nav,
   .user-icon {
     display: none !important;
+  }
+} */
+
+.hero {
+  margin-top: 70px;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  background: url("/hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+.hero-content {
+  max-width: 520px;
+}
+
+.tagline {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1.15;
+}
+
+.description {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.primary {
+  background: #d4af37;
+  color: #fff;
+  border: none;
+  padding: 14px 22px;
+  cursor: pointer;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 14px 22px;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  background: #d4af37;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    margin-top: 64px;
+    min-height: calc(100vh - 64px);
+    padding: 48px 24px;
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 15px;
+    max-width: 520px;
+    margin: 0 auto 28px;
+  }
+
+  .buttons {
+    justify-content: center;
   }
 }

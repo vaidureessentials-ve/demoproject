@@ -16,9 +16,54 @@
   display: none;
 }
 
+/* @media (max-width: 900px) {
+
+  .nav {
+    display: none !important;
+  }
+
+  .mobile-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-icon {
+    display: none !important;
+  }
+
+  .header {
+    padding: 0 16px;
+    height: 64px;
+  }
+
+  .site-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+  .header-icons {
+    gap: 16px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+} */
+
+/* ===============================
+   TABLET HEADER (≤ 900px)
+================================ */
 @media (max-width: 900px) {
 
-  /* Hide desktop navigation */
+  /* Header container */
+  .header {
+    height: 64px;
+    padding: 0 16px;
+  }
+
+  /* Hide desktop nav */
   .nav {
     display: none !important;
   }
@@ -29,26 +74,16 @@
     align-items: center;
   }
 
-  /* Hide USER icon (only 3 icons remain) */
-  .user-icon {
-    display: none !important;
-  }
-
-  /* Header spacing */
-  .header {
-    padding: 0 16px;
-    height: 64px;
-  }
-
-  /* Center logo */
+  /* Center logo perfectly */
   .site-logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
   }
 
-  /* Icons spacing */
+  /* Right icons spacing */
   .header-icons {
     gap: 16px;
   }
@@ -56,7 +91,73 @@
   .icon {
     font-size: 18px;
   }
+
+  /* Hide user icon on tablet */
+  .user-icon {
+    display: none !important;
+  }
+
+  /* Search bar alignment */
+  .header-search {
+    top: 64px;
+    padding: 14px 16px;
+  }
 }
+
+/* ===============================
+   MOBILE HEADER (≤ 480px)
+================================ */
+@media (max-width: 480px) {
+
+  .header {
+    height: 60px;
+    padding: 0 14px;
+  }
+
+  /* Logo sizing */
+  .site-logo {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Icon sizing for thumb reach */
+  .icon {
+    font-size: 17px;
+  }
+
+  .header-icons {
+    gap: 14px;
+  }
+
+  /* Search bar mobile */
+  .header-search {
+    top: 60px;
+    padding: 12px 14px;
+  }
+
+  .header-search input {
+    font-size: 15px;
+  }
+
+  /* Mobile drawer width */
+  .mobile-drawer {
+    width: 260px;
+    padding: 18px;
+  }
+
+  /* Drawer links */
+  .drawer-links li {
+    padding: 12px 0;
+  }
+
+  .drawer-links a {
+    font-size: 14px;
+  }
+}
+
+
+
+
 
 .mobile-drawer {
   position: fixed;
@@ -368,3 +469,4 @@
   justify-content: center;
   font-weight: 500;
 }
+

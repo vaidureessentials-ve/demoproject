@@ -19,14 +19,49 @@ const AboutVaidure = () => {
             everyday rituals should feel indulgent.
           </p>
           <p>
-            Blending refined aesthetics with sensorial formulations, VAIDURE
-            transforms daily cleansing into a moment of calm, confidence, and
-            luxury.
+            Blending refined aesthetics with sensorial formulations, VAIDURE transforms daily 
+            cleansing into moments of calm, confidence, and understated luxury. Every product is 
+            designed with precision, elegance, and a deep respect for modern self-care.
           </p>
           <p>
-            Every product is designed with precision, elegance, and a deep
-            respect for modern self-care.
+            Created to serve the evolving needs of hotels, resorts, serviced apartments, and restaurants 
+            across India, VAIDURE delivers high-quality, reliable, and cost-effective personal care solutions
+            that elevate guest experience while helping hospitality partners control costs, reduce wastage, and simplify operations.
           </p>
+          <p>
+            In a market divided between expensive luxury brands and inconsistent low-cost suppliers, VAIDURE stands at the intersection 
+            of quality, value, and consistency—offering hospitality-ready products that feel premium, perform reliably, and reflect thoughtful design.
+          </p>
+        </div>
+
+        <div className="about-section">
+          <h2>What We Do</h2>
+          <p>We design, manufacture, and supply daily-use hospitality toiletries, including:</p>
+
+          <ul className="product-list">
+            <li>Shampoo</li>
+            <li>Shower Gel</li>
+            <li>Conditioner</li>
+            <li>Hand Wash</li>
+            <li>Lotion</li>
+          </ul>
+
+          <p>Our products are available in miniature bottles for short stays and refill-based 
+            dispenser systems for long-term, high-occupancy hotels, giving properties the
+             flexibility to choose what works best for their operations.</p>
+        </div>
+
+        <div className="about-section">
+          <h2>Our Commitment to Sustainability-</h2>
+          <p>Vaidure is committed to responsible hospitality practices:</p>
+
+          <ul className="product-list">
+            <li>Refillable systems reduce single-use plastic waste</li>
+            <li>Dispensers made using recycled plastic materials</li>
+            <li>Bulk refill formats reduce packaging and logistics impact</li>
+          </ul>
+
+          <p>We believe sustainability should be practical, affordable, and scalable—not a premium luxury.</p>
         </div>
 
         {/* COLLECTION */}
@@ -49,79 +84,28 @@ const AboutVaidure = () => {
             elevate your daily routine.
           </p>
         </div>
+        
 
-        {/* WHY VAIDURE */}
-        <div className="about-section highlight">
-          <h2>Why VAIDURE</h2>
-          <ul className="check-list">
-            <li>Premium-quality formulations</li>
-            <li>Elegant, minimal packaging</li>
-            <li>Gold foil detailing & luxury finish</li>
-            <li>Designed for modern lifestyles</li>
-            <li>Inspired by purity, balance, and refinement</li>
-          </ul>
-
-          <p className="bold-note">
-            VAIDURE is not just skincare — it’s a statement.
-          </p>
-        </div>
-
-        {/* DESIGN */}
         <div className="about-section">
-          <h2>Design Philosophy</h2>
-          <ul className="design-list">
-            <li>Matte black & transparent luxury packaging</li>
-            <li>Gold foil embossed typography</li>
-            <li>Minimal labels with refined detailing</li>
-            <li>Aesthetic inspired by water, purity, and calm strength</li>
-          </ul>
-
-          <p>
-            Every element reflects understated sophistication.
-          </p>
-        </div>
-
-        {/* EXPERIENCE */}
-        <div className="about-section highlight">
-          <h2>Signature Experience</h2>
-          <p>From the moment you open a VAIDURE product:</p>
-
-          <ul className="experience-list">
-            <li>Rich textures</li>
-            <li>Refined fragrances</li>
-            <li>A spa-like feel at home</li>
-          </ul>
-
-          <p className="bold-note">
-            Luxury that lingers beyond the shower.
-          </p>
-        </div>
-
-        {/* AUDIENCE */}
-        <div className="about-section">
-          <h2>For Those Who Choose Excellence</h2>
-          <p>
-            VAIDURE is made for individuals who value quality, elegance, and
-            intentional living.
-          </p>
-
-          <ul className="audience-list">
-            <li>Premium gifting</li>
-            <li>Modern homes</li>
-            <li>Luxury hospitality</li>
-            <li>Conscious consumers</li>
+          <h2>Our Values</h2>
+          <ul className="product-list">
+            <li>Consistency – Same quality, every order</li>
+            <li>Transparency – Clear pricing, no surprises</li>
+            <li>Reliability – On-time supply, dependable support</li>
+            <li>Partnership – Growing together with our hotel clients</li>
           </ul>
         </div>
 
-        {/* LAUNCH */}
-        <div className="launch-box">
-          <h2>Launching Soon</h2>
-          <p>Experience the future of personal care.</p>
+       <div className="about-section">
+          <h2>Our Vision</h2>
+          <p>To become a trusted hospitality amenity partner for 10,000+ mid-segment hotels in India, known for:</p>
 
-          <div className="launch-brand">
-            <h3>VAIDURE</h3>
-            <span>Luxury you can feel. Rituals you’ll remember.</span>
-          </div>
+          <ul className="product-list">
+            <li>Reliable supply</li>
+            <li>Honest pricing</li>
+            <li>Strong after-sales support</li>
+            <li>Long-term partnerships</li>
+          </ul>
         </div>
 
       </div>

@@ -15,7 +15,7 @@ const RefillProgram = () => {
         {/* SECTION 1 — IMAGE LEFT | TEXT RIGHT */}
         <div className="sustain-row">
           <div className="sustain-image">
-            <img src="/images/refill-bulk.jpg" alt="Bulk refill" />
+            <img src="/images/refill1.jpg" alt="Bulk refill" />
           </div>
 
           <div className="sustain-text">
@@ -42,14 +42,14 @@ const RefillProgram = () => {
           </div>
 
           <div className="sustain-image">
-            <img src="/images/refill-waste.jpg" alt="Reduced waste" />
+            <img src="/images/refill1.jpg" alt="Reduced waste" />
           </div>
         </div>
 
         {/* SECTION 3 — IMAGE LEFT | TEXT RIGHT */}
         <div className="sustain-row">
           <div className="sustain-image">
-            <img src="/images/refill-cost.jpg" alt="Bulk refill" />
+            <img src="/images/refill1.jpg" alt="Bulk refill" />
           </div>
 
           <div className="sustain-text">

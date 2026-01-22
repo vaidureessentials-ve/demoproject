@@ -1,4 +1,3 @@
-/* PAGE BASE */
 .about-page {
   padding: 120px 20px 80px;
   background: #f9f7f3;
@@ -10,7 +9,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* HEADINGS */
 .about-container h1 {
   font-size: 44px;
   font-weight: 600;
@@ -25,7 +23,6 @@
   line-height: 1.6;
 }
 
-/* PARAGRAPHS */
 .about-paragraph {
   font-size: 16px;
   line-height: 1.9;
@@ -33,7 +30,6 @@
   margin-bottom: 28px;
 }
 
-/* COMMITMENT / INFO BOX */
 .career-box {
   background: #ffffff;
   padding: 32px;
@@ -57,7 +53,6 @@
   line-height: 1.6;
 }
 
-/* CLOSING NOTE */
 .career-note {
   margin-top: 40px;
   font-size: 16px;
@@ -65,7 +60,6 @@
   color: #222;
 }
 
-/* HERO */
 .brand-hero {
   text-align: center;
   margin-bottom: 60px;
@@ -82,7 +76,6 @@
   margin-top: 8px;
 }
 
-/* SECTION SYSTEM */
 .about-section {
   margin-bottom: 50px;
 }
@@ -104,7 +97,6 @@
   margin-bottom: 18px;
 }
 
-/* LISTS */
 .product-list,
 .design-list,
 .experience-list,
@@ -120,7 +112,6 @@
   margin-bottom: 8px;
 }
 
-/* CHECK LIST */
 .check-list {
   list-style: none;
   padding-left: 0;
@@ -136,20 +127,17 @@
   font-weight: bold;
 }
 
-/* HIGHLIGHT */
 .highlight {
   background: #fff;
   padding: 30px;
   border-radius: 12px;
 }
 
-/* TEXT EMPHASIS */
 .bold-note {
   font-weight: 600;
   margin-top: 10px;
 }
 
-/* LAUNCH BOX */
 .launch-box {
   background: #000;
   color: #fff;
@@ -168,4 +156,64 @@
   display: block;
   margin-top: 8px;
   color: #c9b46b;
+}
+
+
+
+@media (max-width: 480px) {
+  .about-page {
+    padding: 80px 16px 60px;
+  }
+
+  .about-container h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .brand-hero h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+  }
+
+  .subtitle,
+  .brand-tagline {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-paragraph,
+  .about-section p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .about-section h2 {
+    font-size: 22px;
+  }
+
+  .career-box {
+    padding: 22px;
+    margin: 32px 0;
+  }
+
+  .career-box h3 {
+    font-size: 18px;
+  }
+
+  .career-box li {
+    font-size: 14px;
+  }
+
+  .highlight {
+    padding: 22px;
+  }
+
+  .launch-box {
+    padding: 30px 16px;
+  }
+
+  .launch-brand h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
 }
